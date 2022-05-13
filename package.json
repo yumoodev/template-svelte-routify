@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "name": "@yumoodev/template-svelte-routify",
+  "description": "Starter template for building application with Svelte, Routify and TailwindCSS",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "routify -c dev:vite ",
+    "dev:vite": "vite",
+    "build": "svelte-check && routify -b && vite build",
+    "serve": "vite preview",
+    "validate": "svelte-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yumoodev/template-svelte-routify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yumoodev/template-svelte-routify/issues"
+  },
+  "keywords": [
+    "svelte",
+    "routify",
+    "tailwindcss",
+    "template"
+  ],
+  "author": "yumoodev",
+  "license": "MIT",
+  "devDependencies": {
+    "@roxi/routify": "^2.18.5",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.44",
+    "autoprefixer": "^10.4.7",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.4.13",
+    "postcss-load-config": "^3.1.4",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.7.0",
+    "svelte-preprocess": "^4.10.6",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  }
+}
